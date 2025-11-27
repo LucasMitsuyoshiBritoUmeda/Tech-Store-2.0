@@ -1,17 +1,20 @@
 // import logo from './bope.png';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import Main from './components/main/main';
+import Home from './components/main/Home';
+import Perifericos from './components/main/Perifericos';
 import NavBar from "./components/header/NavBar";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <BrowserRouter>
     <NavBar/>
       <Routes>
-          <Route path="/" />
-          <Route path="/Main" element={<Main/>}/>
+          <Route path="/main/Home" element={<Home/>} />  
+          <Route path="/main/Perifericos" element={<Perifericos/>}/>
       </Routes>
+    <Footer/>
     </BrowserRouter>
   )
 }

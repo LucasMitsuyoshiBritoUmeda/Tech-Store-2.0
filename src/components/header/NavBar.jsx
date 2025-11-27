@@ -16,18 +16,18 @@ function NavBar() {
 
                 <ul className="menu me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <Link className="nav-link" aria-current="page" to="../main">Home</Link>
+                        <Link className="nav-link" aria-current="page" to="../main/Home">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="#">Link</Link>
+                        <Link className="nav-link" to="#">Promoções</Link>
                     </li>
                     <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                            Categorias
                         </Link>
                         <ul className="dropdown-menu">
                             <li><Link className="dropdown-item" to="#">Notebook</Link></li>
-                            <li><Link className="dropdown-item" to="#">Periféricos</Link></li>
+                            <li><Link className="dropdown-item" to="../main/Perifericos">Periféricos</Link></li>
                             <li><Link className="dropdown-item" to="#">Desktops</Link></li>
                         </ul>
                     </li>

@@ -1,6 +1,4 @@
-import Footer from "../footer/Footer";
-
-function Main(){
+function Home(){
 	return(
 		<div>
 			<main className="container" id="produtos">
@@ -29,8 +27,7 @@ function Main(){
 				</div>
 			</div>
 		</main>
-		<Footer/>
 		</div>
 	)
 }
-export default Main;
+export default Home;
